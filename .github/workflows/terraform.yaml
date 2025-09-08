@@ -5,4 +5,12 @@ on:
     branches:
       - main
       - 'feature/**'
+
+jobs:
+  TerraformInit: 
+    name: Initva
+    runs-on: aman-runner
+    steps:
+     - name: aman runner ka workflow
+       run: echo aman runner ka workflow
     
