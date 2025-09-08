@@ -10,6 +10,6 @@ jobs:
     name: Initva
     runs-on: aman-runner
     steps:
-     - name: aman runner ka workflow
+     - name: aman
        run: echo "aman runner ka workflow"
     
