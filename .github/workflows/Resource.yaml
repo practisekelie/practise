@@ -5,6 +5,10 @@ on: push
   #   branches:
   #     - 'feature/**'
 
+permissions:          
+  id-token: write        
+  contents: read       
+  
 jobs:
   TerraformInit: 
     name: Initva
