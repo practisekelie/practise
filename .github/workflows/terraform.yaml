@@ -1,9 +1,9 @@
 name: "my work flow"
 
-on:
-  push:
-    branches:
-      - 'feature/**'
+on: push
+  # push:
+  #   branches:
+  #     - 'feature/**'
 
 jobs:
   TerraformInit: 
