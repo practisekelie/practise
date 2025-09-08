@@ -1,0 +1,14 @@
+name: "my work flow"
+
+on: push
+  # push:
+  #   branches:
+  #     - 'feature/**'
+
+jobs:
+  TerraformInit: 
+    name: Initva
+    runs-on: aman-runner
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5.0.0 
