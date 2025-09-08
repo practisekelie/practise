@@ -11,5 +11,5 @@ jobs:
     runs-on: aman-runner
     steps:
      - name: aman runner ka workflow
-       run: echo aman runner ka workflow
+       run: echo "aman runner ka workflow"
     
