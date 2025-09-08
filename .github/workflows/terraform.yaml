@@ -1,0 +1,8 @@
+name: "my work flow"
+
+on:
+  push:
+    branches:
+      - main
+      - 'feature/**'
+    
