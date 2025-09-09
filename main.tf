@@ -8,3 +8,8 @@ resource "azurerm_resource_group" "aman-rg1" {
   name     = "amanrg1_name1"
   location = "central India"
 }
+
+resource "azurerm_resource_group" "aman-rg2" {
+  name     = "amanrg1_name2"
+  location = "central India"
+}
