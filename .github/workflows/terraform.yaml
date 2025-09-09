@@ -1,0 +1,17 @@
+# name: "my work flow"
+
+# on: push
+#   # push:
+#   #   branches:
+#   #     - 'feature/**'
+
+# jobs:
+#   TerraformInit: 
+#     name: Initva
+#     runs-on: aman-runner
+#     steps:
+#      - name: init
+#        run: echo "aman runner ka workflow"
+#      - name: plan
+#        run: echo "aman workflow"
+    
