@@ -12,6 +12,7 @@ permissions:
 jobs:
   TerraformInit: 
     name: Initva
+    environment: prod
     runs-on: aman-runner
     steps:
       - name: Checkout
