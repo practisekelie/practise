@@ -47,15 +47,13 @@ jobs:
         id: plan
         run: terraform plan -no-color -input=false
         continue-on-error: true
+     
+      - name: Manual Workflow Approval
+        uses: trstringer/manual-approval@v1
+        timeout-minutes: 60
+  
         
-      # - name: Terraform init azurerm backend
-      #   uses: ahmedig/terraform-azurerm-backend@v4
-      #   with:
-      #     azure_credentials: 8e43
-      #     resource_group_name: myresourcegroup
-      #     container_name: mycontainer
-      #     storage_account_name: storageaccount432
-              
+
 
       
       
