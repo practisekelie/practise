@@ -79,7 +79,7 @@ jobs:
     
         - name: Terraform Apply
           id: Apply
-          run: terraform Apply --auto-approve
+          run: terraform apply --auto-approve
           continue-on-error: true
     
 
