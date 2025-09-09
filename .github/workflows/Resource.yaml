@@ -26,9 +26,26 @@ jobs:
         with:
               client-id: 7bba9e59-4de0-4840-831b-1bd5e39fd291
               tenant-id: 5792dd07-62dc-48ac-a7ae-855280503fdb
-              subscription-id: 76095b6e-0585-402e-8e43-281835aebfd1
+              subscription-id: 76095b6e-0585-402e-8e43-2818c
 
-    
+
+      - name: Terraform fmt
+        id: fmt
+        run: terraform fmt -check
+        continue-on-error: true
+
+      - name: Terraform Init
+        id: init
+        run: terraform init -input=false
+        
+      # - name: Terraform init azurerm backend
+      #   uses: ahmedig/terraform-azurerm-backend@v4
+      #   with:
+      #     azure_credentials: 8e43
+      #     resource_group_name: myresourcegroup
+      #     container_name: mycontainer
+      #     storage_account_name: storageaccount432
+              
 
       
       
