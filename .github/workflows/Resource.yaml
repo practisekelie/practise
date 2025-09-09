@@ -26,7 +26,7 @@ jobs:
         with:
               client-id: 7bba9e59-4de0-4840-831b-1bd5e39fd291
               tenant-id: 5792dd07-62dc-48ac-a7ae-855280503fdb
-              subscription-id: 76095b6e-0585-402e-8e43-2818c
+              subscription-id: 76095b6e-0585-402e-8e43-281835aebfd1
 
 
       - name: Terraform fmt
