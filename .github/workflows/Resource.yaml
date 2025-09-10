@@ -59,6 +59,9 @@ jobs:
           uses: aquasecurity/tfsec-action@v1.0.0
           with:
             args: --format csv --out tfsec_results.csv
+      
+        - name: SonarQube Cloud Scan
+          uses: SonarSource/sonarcloud-github-action@v5.0.0   
         
   TerraformApply: 
      name: Apply
