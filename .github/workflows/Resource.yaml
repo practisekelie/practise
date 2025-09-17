@@ -1,6 +1,7 @@
 name: "my work flow"
 
-on: push
+on:
+  workflow_dispatch:
   # push:
   #   branches:
   #     - 'feature/**'
